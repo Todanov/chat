@@ -1,0 +1,58 @@
+.App{
+  display: grid;
+  height: 100vh;
+  background: rgb(51, 51, 201);
+  grid-template-rows: 500px 1fr;
+  
+}
+
+.tabs{
+ 
+  height: 70px;
+  background: rgb(231, 231, 79);
+  display: flex;
+  margin: 10px 10px 0px 10px;
+  justify-content: center;
+  border-radius: 5px 5px 0 0;
+}
+
+.tab{
+ 
+  position: relative ;
+  background: rgb(79, 79, 207);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+  border-radius: 15px 15px 0 0px;
+  color: white;
+  cursor: pointer;
+}
+
+.viewport{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background: rgb(33, 33, 117);
+  margin: 0 10px;
+  height:50vh;
+  border-radius: 0px 0px 10px 10px;
+  font-size: 40px;
+  color: rgb(233, 217, 217)
+}
+
+.highlight{
+  display: block;
+  position: absolute;
+  height: 55px;
+  width: 200px;
+  top:0px;
+  left: 0px;
+  border-radius:10px;
+  opacity: 0.5;
+  pointer-events: none;
+  background: radial-gradient(rgb(240, 132, 9),rgba(236, 0, 185, 0));
+}
